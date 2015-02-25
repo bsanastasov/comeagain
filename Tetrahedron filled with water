@@ -8,7 +8,7 @@ int tetrahedron_filled(int *tetrahedrons, int water){
 				 	if (sum < water){
 				 		br++;
 				 	}
-				 	else sum -= V;
+				 	
 			}
 		return br;
 	}
